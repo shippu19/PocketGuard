@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Insights App Backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shippu19/PocketGuard.git"
+  },
+  "author": "Binary Brains",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shippu19/PocketGuard/issues"
+  },
+  "homepage": "https://github.com/shippu19/PocketGuard#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.1",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7"
+  }
+}
